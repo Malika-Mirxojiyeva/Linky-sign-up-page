@@ -36,17 +36,18 @@
                     <p class="lorem" style="font-size:14px;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente facere veniam possimus amet, fugiat nam ullam, aut itaque odit dolor officiis in magni doloremque dolorum.</p> <br><br>
                     <form>
                        <form class="row g-3 d-flex" style="font-family:'Inter'" >
-                           <div class="w-75 input-group input-group-lg col " style="margin-inline-start: 70px">
-                               <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg" placeholder="E-mail">
-                           </div> <br> <br>
-   
-                           <div class="w-75 input-group input-group-lg " style="margin-inline-start: 70px">
-                               <input type="text" class="form-control" id="inputs" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg" placeholder="Password">
-                           </div>
-                   </form> <br>  
+                        <div class="form-floating mb-3">
+                            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                            <label for="floatingInput">Email address</label> <br>
+                          </div>
+                          <div class="form-floating">
+                            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                            <label for="floatingPassword">Password</label>
+                          </div> 
+                   </form> <br>  <br>
 
                    <div class="loginbutton">
-                        <a class="btn btn-primary" href="#" style="width: 150px; text-align: center;">Log In</a>
+                        <a class="btn btn-primary" href="#" style="width: 150px; text-align: center; height: 40px">Log In</a>
                    </div>
                 </div>    
 
