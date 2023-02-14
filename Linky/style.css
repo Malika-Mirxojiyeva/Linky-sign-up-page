@@ -1,3 +1,5 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+
 body{
     width: 100%;
     height: 100vh;
@@ -53,6 +55,42 @@ body{
 }
 
 
+/*              console css kodlari              */
+
+#btn-console{
+    width: 180px;
+    height: 40px;
+    margin-block-start: 10px;
+}
+
+#link-button{
+    background-color: #4154F133;
+    width: 180px;
+    height: 40px;
+    text-align: start;
+    margin-block-start: 10px;
+}
+
+#dashboard-btn{
+    width: 180px;
+    height: 40px;
+    text-align: start;
+    margin-block-start: 10px;
+}
+
+#integration-btn{
+    width: 180px;
+    height: 40px;
+    text-align: start;
+    margin-block-start: 10px;
+}
+
+#custom-btn{
+    width: 180px;
+    height: 40px;
+    text-align: start;
+    margin-block-start: 10px;
+}
 @media screen and (max-width: 600px) {
     div.example {
       display: none;
