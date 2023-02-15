@@ -57,6 +57,10 @@ body{
 
 /*              console css kodlari              */
 
+#sidebar{
+    background: red;
+}
+
 #btn-console{
     width: 180px;
     height: 40px;
@@ -90,6 +94,90 @@ body{
     height: 40px;
     text-align: start;
     margin-block-start: 10px;
+}
+
+
+.history{
+    font-family: Inter;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 10px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:#7D7D7E;
+}
+
+.block-link{
+    font-family: Inter;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+
+.block1{
+    background-color: #4154F133;
+    width: 400px;
+    height: 80px;
+    display: inline-block;
+}
+
+
+.image-qr{
+    width:104px; 
+    height:103px;
+}
+
+.history-qr{
+    display: inline-block;
+}
+
+.data-history{
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.linky-tool{
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.hrome-qr{
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 200;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.link-uz{
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 200;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.total-click{
+    display:inline-block;
+}
+
+
+#click{
+    width: 60px;
+    height: 60px;
 }
 @media screen and (max-width: 600px) {
     div.example {
