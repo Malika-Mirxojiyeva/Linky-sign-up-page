@@ -88,7 +88,6 @@ body{
     font-size: 14px;
     border-radius: 4px;
     text-align: start;
-    padding-block-start: 10px;
 }
 
 #link-btn{
@@ -98,7 +97,6 @@ body{
 }
 
 .list{
-    margin-block-start: 10px;
     text-decoration: none;
     list-style: none;
     background-color: white;
@@ -130,11 +128,17 @@ body{
     color:black;
 }
 
+.links-list{
+    position: absolute;
+}
+
 .block1{
     background-color: #F4F6FA;
     width: 400px;
     height: 80px;
     display: inline-block;
+    position: absolute;
+    left: 350px;
 }
 
 
@@ -146,6 +150,7 @@ body{
     letter-spacing: 0em;
     text-align: left;
     color:#7D7D7E;
+    padding-bottom: 5px;
 }
 
 .block-link{
@@ -155,10 +160,11 @@ body{
     line-height: 12px;
     letter-spacing: 0em;
     text-align: left;
+    padding-bottom: 10px;
 }
 
 .link-data{
-    margin-inline-start: 200px;
+    margin-inline-start: 180px;
     background-color: #F4F6FA;
     margin-block-end: 50px;
 }
@@ -209,7 +215,7 @@ body{
 }
 
 .link-stats{
-    margin-inline-start: 180px;
+    margin-inline-start: 60px;
 }
 
 .click{
@@ -223,6 +229,7 @@ body{
     background-color: #F4F6FA;
     width: 200px;
     height: 100px;
+    position: relative;
 }
 .click-hand{
     width: 60px;
@@ -255,6 +262,7 @@ body{
     font-family: 'Inter';
     text-align: center;
     padding: 10px;
+    position: absolute;
 }
 
 .number-click{
@@ -264,6 +272,9 @@ body{
     font-family: sans-serif;
     text-align: center;
     margin-inline-start: 95px;
+    position: absolute;
+    top: 62px;
+    right: 59px;
 }
 
 .today{
