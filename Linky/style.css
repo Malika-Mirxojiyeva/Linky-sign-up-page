@@ -64,6 +64,7 @@ body{
     margin-block-end: 10px;
     width: 180px;
     height: 40px;
+    border-radius: 3px;
 }
 
 #create{
@@ -91,9 +92,11 @@ body{
 }
 
 #link-btn{
+    width: 180px;
+    height: 40px;
+    text-align: start;
     text-decoration: none;
-    list-style: none;
-    font-family: sans-serif;
+    color:black;
 }
 
 .list{
@@ -109,7 +112,7 @@ body{
     height: 40px;
     text-align: start;
     text-decoration: none;
-    color:black;
+    color: #4154F1;
 }
 
 #integration-btn{
@@ -301,6 +304,25 @@ body{
     font-family: sans-serif;
 }
 
+.conteyner-dashboard{
+    padding-left: 32px;
+}
+
+.img-dashboard{
+    width: 391px;
+    height: 392px;
+}
+
+.text-dash{
+    font-family: sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+}
+
 @media screen and (max-width: 600px) {
     div.example {
       display: none;
@@ -317,6 +339,7 @@ body{
     input.form-control{
         margin-block-start: 10px;
     }
+
   }
 
   
